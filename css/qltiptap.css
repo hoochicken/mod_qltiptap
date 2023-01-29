@@ -1,0 +1,19 @@
+/*
+@package		mod_qltiptap
+@copyright	    Copyright (C) 2020 ql.de All rights reserved.
+@author 		Mareike Riegel mareike.riegel@ql.de
+@license		GNU General Public License version 2 or later; see LICENSE.txt
+*/
+
+body {display:block;position:relative;}
+.qltiptap {display:block;position:fixed;z-index:100;transition:all 0.5s ease;}
+.qltiptap>div {box-sizing:border-box;padding:10px;overflow:hidden;}
+.qltiptap.right {right:0;}
+.qltiptap.left {left:0;}
+.qltiptap .tab{cursor:pointer;}
+.qltiptap.right .tab{float:left;}
+.qltiptap.left .tab{float:right;}
+.qltiptap .tab .tabLink {display:block;height:100%;box-sizing:border-box;}
+/*.qltiptap .tab img{width:100%;}*/
+.qltiptap .content{display:block; float:left;}
+.qltiptapmodal .modal-title{float:left;}
