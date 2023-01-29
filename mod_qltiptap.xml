@@ -11,20 +11,22 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>mareike.riegel@ql.de</authorEmail>
 	<authorUrl>ql.de</authorUrl>
-	<version>1.0.3</version>
+	<version>2.0.0</version>
 	<description>MOD_QLTIPTAP_XML_DESCRIPTION</description>
 	<updateservers>
-        <server type="extension" priority="1" name="qltiptap - Updates"><![CDATA[https://www.blackforest-software.com/_scripts/updates/mod_qltiptap.xml]]></server>
+        <server type="extension" priority="1" name="qltiptap - Updates">https://raw.githubusercontent.com/hoochicken/mod_qltiptap/main/_jupdate/mod_qltiptap.xml</server>
     </updateservers>
 	<files>
 		<filename module="mod_qltiptap">mod_qltiptap.php</filename>
+		<folder>_jupdate</folder>
 		<folder>css</folder>
 		<folder>js</folder>
 		<folder>language</folder>
-		<folder>tmpl</folder>
 		<folder>php</folder>
+		<folder>tmpl</folder>
 		<filename>helper.php</filename>
-		<filename>index.html</filename>		<filename>mod_qltiptap.xml</filename>
+		<filename>index.html</filename>
+		<filename>mod_qltiptap.xml</filename>
 	</files>
     <media folder="media" destination="mod_qltiptap">
         <folder>css</folder>
